@@ -53,7 +53,7 @@ function keyPressed(){
   //For moving and changing animation write code here
 
   if (keyCode === LEFT_ARROW) {
-      mouse.addAnimation("ratoProvocando", mouse2);
+      mouse.addAnimation("ratoProvocando", mouse2, mouse3);
       mouse.changeAnimation("ratoProvocando");
       mouse.frameDelay = 25;
 
